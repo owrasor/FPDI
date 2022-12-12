@@ -1,15 +1,15 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\Type;
+namespace owrasor\Fpdi\functional\PdfParser\Type;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfHexString;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfString;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfHexString;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfString;
 
 class PdfDictionaryTest extends TestCase
 {

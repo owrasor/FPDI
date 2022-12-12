@@ -1,8 +1,8 @@
 <?php
 
-namespace setasign\Fpdi\visual\Alpha;
+namespace owrasor\Fpdi\visual\Alpha;
 
-use setasign\Fpdi\visual\VisualTestCase;
+use owrasor\Fpdi\visual\VisualTestCase;
 
 class AlphaTest extends VisualTestCase
 {

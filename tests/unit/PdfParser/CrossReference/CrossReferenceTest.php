@@ -1,11 +1,11 @@
 <?php
 
-namespace setasign\Fpdi\unit\PdfParser\CrossReference;
+namespace owrasor\Fpdi\unit\PdfParser\CrossReference;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReference;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\CrossReference\FixedReader;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReference;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use owrasor\Fpdi\PdfParser\CrossReference\FixedReader;
 
 class CrossReferenceTest extends TestCase
 {

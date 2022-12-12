@@ -1,10 +1,10 @@
 <?php
 
-namespace setasign\Fpdi\visual\Tfpdf;
+namespace owrasor\Fpdi\visual\Tfpdf;
 
-use setasign\Fpdi\Tfpdf\FpdfTpl;
+use owrasor\Fpdi\Tfpdf\FpdfTpl;
 
-class FpdfTplTest extends \setasign\Fpdi\visual\FpdfTplTest
+class FpdfTplTest extends \owrasor\Fpdi\visual\FpdfTplTest
 {
     /**
      * Should return __FILE__

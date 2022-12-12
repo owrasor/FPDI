@@ -1,11 +1,11 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\Type;
+namespace owrasor\Fpdi\functional\PdfParser\Type;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Tokenizer;
-use setasign\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Tokenizer;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
 
 class PdfNameTest extends TestCase
 {

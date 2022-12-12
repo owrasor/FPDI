@@ -4,7 +4,7 @@
  */
 set_time_limit(90);
 
-use setasign\Fpdi;
+use owrasor\Fpdi;
 
 require_once '../vendor/autoload.php';
 
@@ -73,4 +73,4 @@ foreach ($files as $file) {
 
 ?>
 
-<iframe src="http://pdfanalyzer2.dev1.setasign.local/plugin?file=<?php echo urlencode(realpath('memory.pdf')); ?>" width="100%" height="96%"></iframe>
+<iframe src="http://pdfanalyzer2.dev1.owrasor.local/plugin?file=<?php echo urlencode(realpath('memory.pdf')); ?>" width="100%" height="96%"></iframe>

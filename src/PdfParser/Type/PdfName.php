@@ -3,15 +3,15 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   owrasor\Fpdi
+ * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\Type;
+namespace owrasor\Fpdi\PdfParser\Type;
 
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Tokenizer;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Tokenizer;
 
 /**
  * Class representing a PDF name object

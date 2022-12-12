@@ -1,10 +1,10 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\Filter;
+namespace owrasor\Fpdi\functional\PdfParser\Filter;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\Filter\Ascii85;
-use setasign\Fpdi\PdfParser\Filter\Ascii85Exception;
+use owrasor\Fpdi\PdfParser\Filter\Ascii85;
+use owrasor\Fpdi\PdfParser\Filter\Ascii85Exception;
 
 class Ascii85Test extends TestCase
 {

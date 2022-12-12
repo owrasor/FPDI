@@ -1,13 +1,13 @@
 <?php
 
-use setasign\Fpdi\Fpdi;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfHexString;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfString;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfBoolean;
-use setasign\Fpdi\PdfParser\Type\PdfType;
+use owrasor\Fpdi\Fpdi;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfHexString;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\Type\PdfString;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfBoolean;
+use owrasor\Fpdi\PdfParser\Type\PdfType;
 
 require_once '../vendor/autoload.php';
 
@@ -24,9 +24,9 @@ class FpdiWithInfo extends Fpdi
      * Returns the data of the Info dictionary (only scalar values are returned).
      *
      * @return array
-     * @throws \setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException
-     * @throws \setasign\Fpdi\PdfParser\PdfParserException
-     * @throws \setasign\Fpdi\PdfParser\Type\PdfTypeException
+     * @throws \owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException
+     * @throws \owrasor\Fpdi\PdfParser\PdfParserException
+     * @throws \owrasor\Fpdi\PdfParser\Type\PdfTypeException
      */
     public function getInfoFromSourceFile()
     {

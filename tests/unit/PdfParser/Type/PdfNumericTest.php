@@ -1,11 +1,11 @@
 <?php
 
-namespace setasign\Fpdi\unit\PdfParser\Type;
+namespace owrasor\Fpdi\unit\PdfParser\Type;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfString;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfString;
+use owrasor\Fpdi\PdfParser\Type\PdfTypeException;
 
 class PdfNumericTest extends TestCase
 {

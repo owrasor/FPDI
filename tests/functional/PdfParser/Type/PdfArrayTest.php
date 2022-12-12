@@ -1,13 +1,13 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\Type;
+namespace owrasor\Fpdi\functional\PdfParser\Type;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfString;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Type\PdfArray;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfString;
 
 class PdfArrayTest extends TestCase
 {

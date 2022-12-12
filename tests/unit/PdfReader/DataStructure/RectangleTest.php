@@ -1,16 +1,16 @@
 <?php
 
-namespace setasign\Fpdi\unit\PdfReader\DataStructure;
+namespace owrasor\Fpdi\unit\PdfReader\DataStructure;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReference;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfReader\DataStructure\Rectangle;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReference;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Type\PdfArray;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObject;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfReader\DataStructure\Rectangle;
 
 class RectangleTest extends TestCase
 {

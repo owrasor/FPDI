@@ -1,9 +1,9 @@
 <?php
 
-use setasign\Fpdi\Fpdi;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfType;
+use owrasor\Fpdi\Fpdi;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfNull;
+use owrasor\Fpdi\PdfParser\Type\PdfType;
 
 require_once '../vendor/autoload.php';
 
@@ -71,5 +71,5 @@ foreach ($files as $file) {
 $pdf->Output('F', 'import-layers.pdf');
 
 ?>
-<iframe src="http://pdfanalyzer2.dev1.setasign.local/plugin?file=<?php echo urlencode(realpath('import-layers.pdf')); ?>"
+<iframe src="http://pdfanalyzer2.dev1.owrasor.local/plugin?file=<?php echo urlencode(realpath('import-layers.pdf')); ?>"
         width="100%" height="94%"></iframe>

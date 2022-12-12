@@ -3,15 +3,15 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   owrasor\Fpdi
+ * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\CrossReference;
+namespace owrasor\Fpdi\PdfParser\CrossReference;
 
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\StreamReader;
 
 /**
  * Class LineReader

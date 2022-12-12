@@ -3,26 +3,26 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   owrasor\Fpdi
+ * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfReader;
+namespace owrasor\Fpdi\PdfReader;
 
-use setasign\Fpdi\PdfParser\Filter\FilterException;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\PdfParserException;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfType;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
-use setasign\Fpdi\PdfReader\DataStructure\Rectangle;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use owrasor\Fpdi\PdfParser\Filter\FilterException;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\PdfParserException;
+use owrasor\Fpdi\PdfParser\Type\PdfArray;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObject;
+use owrasor\Fpdi\PdfParser\Type\PdfNull;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfStream;
+use owrasor\Fpdi\PdfParser\Type\PdfType;
+use owrasor\Fpdi\PdfParser\Type\PdfTypeException;
+use owrasor\Fpdi\PdfReader\DataStructure\Rectangle;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
 
 /**
  * Class representing a page of a PDF document

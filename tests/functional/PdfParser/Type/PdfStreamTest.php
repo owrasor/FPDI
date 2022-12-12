@@ -1,22 +1,22 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\Type;
+namespace owrasor\Fpdi\functional\PdfParser\Type;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReference;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Tokenizer;
-use setasign\Fpdi\PdfParser\Type\PdfBoolean;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfToken;
-use setasign\Fpdi\PdfParser\Type\PdfType;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReference;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Tokenizer;
+use owrasor\Fpdi\PdfParser\Type\PdfBoolean;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObject;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\Type\PdfNull;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfStream;
+use owrasor\Fpdi\PdfParser\Type\PdfToken;
+use owrasor\Fpdi\PdfParser\Type\PdfType;
 
 class PdfStreamTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace setasign\Fpdi\visual;
+namespace owrasor\Fpdi\visual;
 
 use PHPUnit\Framework\TestCase;
 

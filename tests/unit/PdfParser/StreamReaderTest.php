@@ -1,9 +1,9 @@
 <?php
 
-namespace setasign\Fpdi\unit\PdfParser;
+namespace owrasor\Fpdi\unit\PdfParser;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\StreamReader;
 
 class StreamReaderTest extends TestCase
 {

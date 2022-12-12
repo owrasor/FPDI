@@ -46,7 +46,7 @@ $start = microtime(true);
 if ($useLegacy) {
     $pdf = new \FPDI('P', 'pt', 'A3');
 } else {
-    $pdf = new setasign\Fpdi\Fpdi('P', 'pt', 'A3');
+    $pdf = new owrasor\Fpdi\Fpdi('P', 'pt', 'A3');
 }
 
 foreach ($files as $file) {
@@ -78,5 +78,5 @@ echo filesize('concatenate.pdf');
 echo "<br>";
 
 ?>
-<iframe src="http://pdfanalyzer2.dev1.setasign.local/plugin?file=<?php echo urlencode(realpath('concatenate.pdf')); ?>"
+<iframe src="http://pdfanalyzer2.dev1.owrasor.local/plugin?file=<?php echo urlencode(realpath('concatenate.pdf')); ?>"
         width="100%" height="94%"></iframe>

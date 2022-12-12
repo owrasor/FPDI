@@ -3,17 +3,17 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   owrasor\Fpdi
+ * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi;
+namespace owrasor\Fpdi;
 
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\PdfParserException;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use owrasor\Fpdi\PdfParser\PdfParserException;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObject;
+use owrasor\Fpdi\PdfParser\Type\PdfNull;
 
 /**
  * Class Fpdi

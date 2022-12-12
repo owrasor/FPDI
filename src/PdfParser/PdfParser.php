@@ -3,28 +3,28 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   owrasor\Fpdi
+ * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser;
+namespace owrasor\Fpdi\PdfParser;
 
-use setasign\Fpdi\PdfParser\CrossReference\CrossReference;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfBoolean;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfHexString;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfString;
-use setasign\Fpdi\PdfParser\Type\PdfToken;
-use setasign\Fpdi\PdfParser\Type\PdfType;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReference;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use owrasor\Fpdi\PdfParser\Type\PdfArray;
+use owrasor\Fpdi\PdfParser\Type\PdfBoolean;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfHexString;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObject;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\Type\PdfNull;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfStream;
+use owrasor\Fpdi\PdfParser\Type\PdfString;
+use owrasor\Fpdi\PdfParser\Type\PdfToken;
+use owrasor\Fpdi\PdfParser\Type\PdfType;
 
 /**
  * A PDF parser class

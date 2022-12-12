@@ -1,9 +1,9 @@
 <?php
 
-namespace setasign\Fpdi\functional;
+namespace owrasor\Fpdi\functional;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\Fpdi;
+use owrasor\Fpdi\Fpdi;
 
 class FpdiTraitTest extends TestCase
 {

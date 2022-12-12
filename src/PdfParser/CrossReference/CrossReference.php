@@ -3,20 +3,20 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   owrasor\Fpdi
+ * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\CrossReference;
+namespace owrasor\Fpdi\PdfParser\CrossReference;
 
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfToken;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObject;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfStream;
+use owrasor\Fpdi\PdfParser\Type\PdfToken;
+use owrasor\Fpdi\PdfParser\Type\PdfTypeException;
 
 /**
  * Class CrossReference
@@ -256,7 +256,7 @@ class CrossReference
 
             throw new CrossReferenceException(
                 'This PDF document probably uses a compression technique which is not supported by the ' .
-                'free parser shipped with FPDI. (See https://www.setasign.com/fpdi-pdf-parser for more details)',
+                'free parser shipped with FPDI. (See https://www.owrasor.com/fpdi-pdf-parser for more details)',
                 CrossReferenceException::COMPRESSED_XREF
             );
         }

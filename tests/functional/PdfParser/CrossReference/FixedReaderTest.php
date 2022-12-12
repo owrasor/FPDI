@@ -1,12 +1,12 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\CrossReference;
+namespace owrasor\Fpdi\functional\PdfParser\CrossReference;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\CrossReference\FixedReader;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\CrossReference\FixedReader;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\StreamReader;
 
 class FixedReaderTest extends TestCase
 {

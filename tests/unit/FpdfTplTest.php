@@ -1,9 +1,9 @@
 <?php
 
-namespace setasign\Fpdi\unit;
+namespace owrasor\Fpdi\unit;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\FpdfTpl;
+use owrasor\Fpdi\FpdfTpl;
 
 require_once __DIR__ . '/FpdiTraitTest.php';
 

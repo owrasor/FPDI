@@ -3,14 +3,14 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   owrasor\Fpdi
+ * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\Filter;
+namespace owrasor\Fpdi\PdfParser\Filter;
 
-use setasign\Fpdi\PdfParser\PdfParserException;
+use owrasor\Fpdi\PdfParser\PdfParserException;
 
 /**
  * Exception for filters

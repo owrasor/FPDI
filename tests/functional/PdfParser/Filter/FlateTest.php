@@ -1,10 +1,10 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\Filter;
+namespace owrasor\Fpdi\functional\PdfParser\Filter;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\Filter\Flate;
-use setasign\Fpdi\PdfParser\Filter\FlateException;
+use owrasor\Fpdi\PdfParser\Filter\Flate;
+use owrasor\Fpdi\PdfParser\Filter\FlateException;
 
 class FlateTest extends TestCase
 {
@@ -51,7 +51,7 @@ class FlateTest extends TestCase
     }
 
     /**
-     * @covers \setasign\Fpdi\PdfParser\Filter\Flate::decode
+     * @covers \owrasor\Fpdi\PdfParser\Filter\Flate::decode
      */
     public function testDecodeWithoutZlib()
     {

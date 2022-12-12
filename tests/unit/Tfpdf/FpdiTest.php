@@ -1,9 +1,9 @@
 <?php
 
-namespace setasign\Fpdi\unit\Tfpdf;
+namespace owrasor\Fpdi\unit\Tfpdf;
 
-use setasign\Fpdi\Tfpdf\Fpdi;
-use setasign\Fpdi\unit\FpdiTraitTest;
+use owrasor\Fpdi\Tfpdf\Fpdi;
+use owrasor\Fpdi\unit\FpdiTraitTest;
 
 class FpdiTest extends FpdiTraitTest
 {

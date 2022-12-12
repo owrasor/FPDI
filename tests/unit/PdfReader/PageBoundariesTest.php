@@ -1,9 +1,9 @@
 <?php
 
-namespace setasign\Fpdi\unit\PdfReader;
+namespace owrasor\Fpdi\unit\PdfReader;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfReader\PageBoundaries;
+use owrasor\Fpdi\PdfReader\PageBoundaries;
 
 class PageBoundariesTest extends TestCase
 {

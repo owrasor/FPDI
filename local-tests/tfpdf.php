@@ -3,7 +3,7 @@
  * Let's simply try tFPDF with some unicode text and an imported page via FPDI.
  */
 
-use setasign\Fpdi\Tfpdf\Fpdi;
+use owrasor\Fpdi\Tfpdf\Fpdi;
 
 require_once '../vendor/autoload.php';
 
@@ -19,7 +19,7 @@ $pdf->useTemplate($tplId);
 // Add a Unicode font (uses UTF-8)
 $pdf->AddFont('DejaVu', '', 'DejaVuSansCondensed.ttf',true);
 $pdf->SetFont('DejaVu', '', 14);
-$txt = file_get_contents(__DIR__ . '/../vendor/setasign/tfpdf/HelloWorld.txt');
+$txt = file_get_contents(__DIR__ . '/../vendor/owrasor/tfpdf/HelloWorld.txt');
 
 $tplId2 = $pdf->beginTemplate();
 $pdf->Write(8, $txt);

@@ -1,12 +1,12 @@
 <?php
 
-namespace setasign\Fpdi\unit\PdfParser\Type;
+namespace owrasor\Fpdi\unit\PdfParser\Type;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfString;
-use setasign\Fpdi\PdfParser\Type\PdfToken;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\Type\PdfString;
+use owrasor\Fpdi\PdfParser\Type\PdfToken;
+use owrasor\Fpdi\PdfParser\Type\PdfTypeException;
 
 class PdfTokenTest extends TestCase
 {

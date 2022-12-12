@@ -1,15 +1,15 @@
 <?php
 
-namespace setasign\Fpdi\functional\Tfpdf;
+namespace owrasor\Fpdi\functional\Tfpdf;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfType;
-use setasign\Fpdi\PdfReader\PdfReader;
-use setasign\Fpdi\Tfpdf\Fpdi;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Type\PdfNull;
+use owrasor\Fpdi\PdfParser\Type\PdfType;
+use owrasor\Fpdi\PdfReader\PdfReader;
+use owrasor\Fpdi\Tfpdf\Fpdi;
 
 class FpdiTest extends TestCase
 {

@@ -4,7 +4,7 @@
  * into a page, that also uses such graphic state (handling of $groupXObject parameter of the importPage()).
  */
 
-use setasign\Fpdi;
+use owrasor\Fpdi;
 
 require_once '../vendor/autoload.php';
 
@@ -101,4 +101,4 @@ echo filesize('alpha-test.pdf');
 
 ?>
 
-<iframe src="http://pdfanalyzer2.dev1.setasign.local/plugin?file=<?php echo urlencode(realpath('alpha-test.pdf')); ?>" width="100%" height="96%"></iframe>
+<iframe src="http://pdfanalyzer2.dev1.owrasor.local/plugin?file=<?php echo urlencode(realpath('alpha-test.pdf')); ?>" width="100%" height="96%"></iframe>

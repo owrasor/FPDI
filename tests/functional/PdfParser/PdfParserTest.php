@@ -1,24 +1,24 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser;
+namespace owrasor\Fpdi\functional\PdfParser;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\PdfParserException;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfBoolean;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfHexString;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfString;
-use setasign\Fpdi\PdfParser\Type\PdfToken;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use owrasor\Fpdi\PdfParser\PdfParser;
+use owrasor\Fpdi\PdfParser\PdfParserException;
+use owrasor\Fpdi\PdfParser\StreamReader;
+use owrasor\Fpdi\PdfParser\Type\PdfArray;
+use owrasor\Fpdi\PdfParser\Type\PdfBoolean;
+use owrasor\Fpdi\PdfParser\Type\PdfDictionary;
+use owrasor\Fpdi\PdfParser\Type\PdfHexString;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObject;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\Type\PdfNull;
+use owrasor\Fpdi\PdfParser\Type\PdfNumeric;
+use owrasor\Fpdi\PdfParser\Type\PdfString;
+use owrasor\Fpdi\PdfParser\Type\PdfToken;
+use owrasor\Fpdi\PdfParser\Type\PdfTypeException;
 
 class PdfParserTest extends TestCase
 {
@@ -204,7 +204,7 @@ class PdfParserTest extends TestCase
      * @param $in
      * @param $expectedType
      * @param $expectedResult
-     * @throws \setasign\Fpdi\PdfParser\Type\PdfTypeException
+     * @throws \owrasor\Fpdi\PdfParser\Type\PdfTypeException
      * @dataProvider readValueWithExpectedTypeProvider
      */
     public function testReadValueWithExpectedType($in, $expectedType, $expectedResult)
@@ -260,7 +260,7 @@ class PdfParserTest extends TestCase
     /**
      * @param $in
      * @param $expectedType
-     * @throws \setasign\Fpdi\PdfParser\Type\PdfTypeException
+     * @throws \owrasor\Fpdi\PdfParser\Type\PdfTypeException
      * @dataProvider readValueWithInvalidTypeProvider
      */
     public function testReadValueWithInvalidType($in, $expectedType)

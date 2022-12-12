@@ -1,10 +1,10 @@
 <?php
 
-namespace setasign\Fpdi\functional\PdfParser\Filter;
+namespace owrasor\Fpdi\functional\PdfParser\Filter;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\Filter\Lzw;
-use setasign\Fpdi\PdfParser\Filter\LzwException;
+use owrasor\Fpdi\PdfParser\Filter\Lzw;
+use owrasor\Fpdi\PdfParser\Filter\LzwException;
 
 class LzwTest extends TestCase
 {

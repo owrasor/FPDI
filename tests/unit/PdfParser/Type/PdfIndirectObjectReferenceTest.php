@@ -1,11 +1,11 @@
 <?php
 
-namespace setasign\Fpdi\unit\PdfParser\Type;
+namespace owrasor\Fpdi\unit\PdfParser\Type;
 
 use PHPUnit\Framework\TestCase;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use owrasor\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use owrasor\Fpdi\PdfParser\Type\PdfName;
+use owrasor\Fpdi\PdfParser\Type\PdfTypeException;
 
 class PdfIndirectObjectReferenceTest extends TestCase
 {

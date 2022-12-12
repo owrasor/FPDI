@@ -1,8 +1,8 @@
 <?php
 
-namespace setasign\Fpdi\unit;
+namespace owrasor\Fpdi\unit;
 
-use setasign\Fpdi\Fpdi;
+use owrasor\Fpdi\Fpdi;
 
 require_once __DIR__ . '/FpdiTraitTest.php';
 
