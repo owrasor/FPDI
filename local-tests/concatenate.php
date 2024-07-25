@@ -2,6 +2,8 @@
 
 set_time_limit(120);
 ini_set('memory_limit', '512M');
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 
 $fpdiLegacy = __DIR__ . '/../../FPDI/classes/fpdi.php';
@@ -55,7 +57,7 @@ foreach ($files as $file) {
     for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
         $pdf->AddPage();
 
-        $pageId = $pdf->importPage($pageNo, 'ArtBox');
+        $pageId = $pdf->importPage($pageNo, 'TrimBox', true, true);
         if ($useLegacy) {
             $pdf->useTemplate($pageId, null, null, 0, 0, true);
         } else {

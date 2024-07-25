@@ -4,7 +4,7 @@
  * This file is part of FPDI
  *
  * @package   owrasor\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
+ * @copyright Copyright (c) 2023 Owrasor GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
@@ -69,7 +69,7 @@ class CrossReference
                 // sometimes the file header offset is part of the byte offsets, so let's retry by resetting it to zero.
                 if ($e->getCode() === CrossReferenceException::INVALID_DATA && $this->fileHeaderOffset !== 0) {
                     $this->fileHeaderOffset = 0;
-                    $reader = $this->readXref($offset + $this->fileHeaderOffset);
+                    $reader = $this->readXref($offset);
                 } else {
                     throw $e;
                 }

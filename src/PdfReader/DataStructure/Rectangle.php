@@ -4,12 +4,13 @@
  * This file is part of FPDI
  *
  * @package   owrasor\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.owrasor.com)
+ * @copyright Copyright (c) 2023 Owrasor GmbH & Co. KG (https://www.owrasor.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
 namespace owrasor\Fpdi\PdfReader\DataStructure;
 
+use owrasor\Fpdi\Math\Vector;
 use owrasor\Fpdi\PdfParser\CrossReference\CrossReferenceException;
 use owrasor\Fpdi\PdfParser\PdfParser;
 use owrasor\Fpdi\PdfParser\PdfParserException;
@@ -62,6 +63,11 @@ class Rectangle
         $by = PdfNumeric::ensure(PdfType::resolve($array[3], $parser))->value;
 
         return new self($ax, $ay, $bx, $by);
+    }
+
+    public static function byVectors(Vector $ll, Vector $ur)
+    {
+        return new self($ll->getX(), $ll->getY(), $ur->getX(), $ur->getY());
     }
 
     /**
